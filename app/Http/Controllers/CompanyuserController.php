@@ -95,7 +95,8 @@ class CompanyuserController extends Controller
             'price' => $price,
         ];
 
-        $curentTime = Carbon::now();
+        $now = new DateTime();
+        $curentTime = $now;
         $input = [
             'id_company' => $id,
             'notify_date' =>$curentTime,

@@ -28,6 +28,7 @@ class SupplierController extends Controller
         $medicinestock = Medicinestock::orderBy('id', 'ASC')->where('id_company','=',$company_id)->get();
         $id_medicinefilter = 0;
 
+      
         $start_date = Carbon::now()->toDateString();
         $end_date = Carbon::now()->toDateString();
 
