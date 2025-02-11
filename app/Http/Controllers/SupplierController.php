@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Supplier;
-use App\Models\medicinestock;
+use App\Models\Medicinestock;
 use App\Models\Companyuser;
 use App\Models\Exportdata;
 use Illuminate\Support\Facades\DB;
