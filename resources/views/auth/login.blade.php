@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Login - VelaTech Dentist</title>
+        <title>Login Accont - VelaTech Dentist</title>
         <link href="{{ asset('admin_assets2/css/styles.css') }}" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="{{ asset('image_about/20231119052722.png') }}" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
                             <div class="col-lg-5">
                                 <!-- Basic login form-->
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header justify-content-center"><h3 class="font-weight-light my-4">Login</h3></div>
+                                    <div class="card-header justify-content-center"><h3 class="font-weight-light my-4">Login Account</h3></div>
                                     <div class="card-body">
                                         <!-- Login form-->
                                         <form action="{{ route('login.action') }}" method="POST" class="user">
