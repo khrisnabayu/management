@@ -45,7 +45,7 @@
     
     <!-- Example DataTable for Dashboard Demo-->
     <div class="card mb-4">
-        <div class="card-header">Supplier Management Data</div>
+        <div class="card-header">Supplier Management Data 1</div>
         <div class="card-header">
 
             <!-- Create Data -->
